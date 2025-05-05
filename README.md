@@ -48,15 +48,6 @@
 
 ---
 
-## 📷 Screenshots
-
-> You can optionally upload screenshots in an `assets/` folder and display them like:
-
-![Home](assets/screenshot-home.png)
-![Projects](assets/screenshot-projects.png)
-
----
-
 ## 📦 Installation (Local Setup)
 
 ```bash
