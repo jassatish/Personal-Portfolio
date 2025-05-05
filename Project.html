@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>satish's Portfolio</title>
+  <link rel="icon" href="Image/engineer.ico">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Project.css">
+  <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" />
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+
+<body class="container-fluid body_section">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <h1><a class="navbar-brand brand-name" href="index.html">satish</a></h1>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link headerachor" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link headerachor" href="Education.html">Education</a></li>
+          <li class="nav-item"><a class="nav-link headerachor" href="skill.html">Skills</a></li>
+          <li class="nav-item"><a class="nav-link headerachor" href="Project.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link headerachor" href="contact.html">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section id="Projects" class="Section1">
+    <div class="row">
+      <div class="col-lg-6 col-md-6">
+        <img class="projectimage" src="Image/Project.svg" alt="project illustration">
+      </div>
+      <div class="col-lg-6 col-md-6 project-heading">
+        <h1 class="P-heading">Projects & Publications</h1>
+        <p class="p-text">
+          I’ve worked on research and applied projects involving deep learning, data analysis, and real-time AI systems. Below are some highlights from my portfolio and academic work.
+        </p>
+      </div>
+    </div>
+
+    <div class="row Section1">
+
+      <!-- IEEE Publication -->
+      <div class="col-sm-6">
+        <a class="Project-box" target="_blank" href="https://ieeexplore.ieee.org/document/10895860">
+          <div class="card boxx">
+            <div class="card-body">
+              <h5 class="card-title">Deep Neural Networks for Disease Classification</h5>
+              <p class="card-text project-text">
+                Presented at IEEE ICERCS’24, this publication proposes a CNN + U-Net architecture for endoscopic image classification. Achieved 98.8% test accuracy on gastrointestinal disease dataset.
+                <span class="badge badge-info ml-2">IEEE Publication</span><br />
+                <span class="iconify" data-icon="logos:tensorflow"></span>
+                <span class="iconify" data-icon="logos:python"></span>
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Body Pose Recognition -->
+      <div class="col-sm-6">
+        <a class="Project-box" target="_blank" href="https://github.com/jassatish/Body-Pose-Recognition">
+          <div class="card boxx">
+            <div class="card-body">
+              <h5 class="card-title">Body Pose Recognition</h5>
+              <p class="card-text project-text">
+                Deep learning system to estimate human pose in real-time using TensorFlow and OpenCV. Useful in fitness tracking and field activity monitoring.
+                <span class="iconify" data-icon="logos:python"></span>
+                <span class="iconify" data-icon="logos:tensorflow"></span>
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Global Terrorism EDA -->
+      <div class="col-sm-6">
+        <a class="Project-box" target="_blank" href="https://github.com/jassatish/Exploratory-Data-Analysis---Terrorism">
+          <div class="card boxx">
+            <div class="card-body">
+              <h5 class="card-title">Global Terrorism Analysis</h5>
+              <p class="card-text project-text">
+                Performed exploratory data analysis on global terrorism datasets using Python, pandas, seaborn, and matplotlib to uncover trends and regional patterns.
+                <span class="iconify" data-icon="logos:python"></span>
+                <span class="iconify" data-icon="logos:jupyter"></span>
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">Copyright © Satish</footer>
+</body>
+
+</html>
